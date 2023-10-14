@@ -56,7 +56,9 @@ defmodule Langchain.UtilsTest do
 
       refute changeset.valid?
       result = Utils.changeset_error_to_string(changeset)
-      assert result == "multiple: should be at most 10 character(s), is invalid; name: can't be blank; required: can't be blank"
+
+      assert result ==
+               "multiple: should be at most 10 character(s), is invalid; name: can't be blank; required: can't be blank"
     end
 
     test "handles ecto enum type errors" do
@@ -80,6 +82,7 @@ defmodule Langchain.UtilsTest do
 
     test "handles multiple errors on multiple fields" do
       {:error, changeset} = Langchain.MessageDelta.new(%{role: "invalid", index: "abc"})
+
       changeset =
         changeset
         |> Ecto.Changeset.add_error(:index, "is numeric")

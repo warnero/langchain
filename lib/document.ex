@@ -5,13 +5,13 @@ defmodule Langchain.Document do
   alias __MODULE__
   alias Langchain.LangchainError
 
+  @type t :: %__MODULE__{}
+
   @primary_key false
   embedded_schema do
     field :page_content, :string
     field :metadata, :map
   end
-
-  @type t :: %Document{}
 
   @create_fields [:page_content, :metadata]
   @required_fields [:page_content]

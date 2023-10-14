@@ -1,0 +1,6422 @@
+
+        
+
+
+
+        
+          
+            :root {
+              --accent-brand-lighter-rgb: 80, 99, 301;
+              --accent-brand-rgb: 59, 73, 223;
+              --accent-brand-darker-rgb: 47, 58, 178;
+            }
+          
+        
+        
+          
+        
+        
+
+  
+  Skip to content
+  
+    
+      
+        Navigation menu
+    
+
+
+      
+    
+    
+    
+
+
+
+    
+      
+        
+          
+            
+            
+              Search
+    
+
+
+            
+          
+        
+      
+    
+
+    
+      
+        Search
+    
+
+
+      
+        
+          
+            
+              Log in
+            
+          
+
+          
+            Create account
+          
+        
+    
+  
+
+
+
+  
+    
+      DEV Community
+
+      
+        Close
+
+      
+    
+
+    
+    
+  
+  
+
+
+
+        
+  
+
+  
+    
+
+    
+
+
+
+  .html-variant-wrapper { display: none}
+
+
+
+
+  
+
+
+
+
+
+
+
+
+    
+      {"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://dev.to/favourmark05/writing-clean-code-best-practices-and-principles-3amh"},"url":"https://dev.to/favourmark05/writing-clean-code-best-practices-and-principles-3amh","image":["https://res.cloudinary.com/practicaldev/image/fetch/s--kcr2Rw7N--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l7n2yigcaho1g6mn0oed.jpeg","https://res.cloudinary.com/practicaldev/image/fetch/s--cSJchB7j--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l7n2yigcaho1g6mn0oed.jpeg","https://res.cloudinary.com/practicaldev/image/fetch/s--sqYMuArW--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l7n2yigcaho1g6mn0oed.jpeg"],"publisher":{"@context":"http://schema.org","@type":"Organization","name":"DEV Community","logo":{"@context":"http://schema.org","@type":"ImageObject","url":"https://res.cloudinary.com/practicaldev/image/fetch/s--b551aYX---/c_limit,f_png,fl_progressive,q_80,w_192/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8j7kvp660rqzt99zui8e.png","width":"192","height":"192"}},"headline":"Writing Clean Code: Best Practices and Principles","author":{"@context":"http://schema.org","@type":"Person","url":"https://dev.to/favourmark05","name":"MFONIDO MARK"},"datePublished":"2023-09-16T21:12:29Z","dateModified":"2023-09-16T21:12:29Z"}
+    
+
+  
+
+  
+    
+  
+
+    
+
+  
+      
+        
+    
+        
+    
+    
+        
+        
+        
+    
+
+
+      
+      
+        
+      
+      
+        
+      
+      
+        Add reaction
+      
+  
+
+  
+    
+        
+    
+      
+    
+    
+
+    
+      Like
+    
+
+
+        
+    
+      
+    
+    
+
+    
+      Unicorn
+    
+
+
+        
+    
+      
+    
+    
+
+    
+      Exploding Head
+    
+
+
+        
+    
+      
+    
+    
+
+    
+      Raised Hands
+    
+
+
+        
+    
+      
+    
+    
+
+    
+      Fire
+    
+
+
+    
+  
+
+
+
+    
+      
+    
+
+
+    
+    
+      
+    
+
+    
+      Jump to Comments
+    
+
+
+
+    
+      
+    
+
+
+    
+    
+
+    
+      Save
+    
+
+
+
+
+    
+    
+    
+      
+        More...
+
+      
+
+      
+        
+          
+            Copy link
+            Copy link
+    
+
+
+          
+          Copied to Clipboard
+        
+
+        
+          
+            Share to Twitter
+          
+          
+            Share to LinkedIn
+          
+          
+            Share to Reddit
+          
+          
+            Share to Hacker News
+          
+          
+            Share to Facebook
+          
+          
+            Share to Mastodon
+          
+        
+
+        
+        
+        
+          Share Post via...
+        
+
+        Report Abuse
+      
+    
+  
+
+
+  
+
+  
+    
+
+
+      
+        
+            
+              
+            
+
+          
+            
+              
+              
+                
+                    
+                
+                
+                  MFONIDO MARK
+                  
+                      Posted on Sep 16
+
+
+                  
+                
+              
+            
+
+            
+    
+      
+       
+    
+    
+      
+       
+    
+    
+      
+       
+    
+    
+      
+       
+    
+    
+      
+       
+    
+
+
+
+            
+              Writing Clean Code: Best Practices and Principles
+            
+
+              
+                  #webdev
+                  #javascript
+                  #programming
+                  #productivity
+              
+          
+        
+
+        
+
+          
+            
+  
+  
+  Introduction
+
+
+Writing clean code is a fundamental skill for every software developer. Clean code not only makes your codebase more maintainable and easier to understand but also fosters collaboration among team members. In this comprehensive article, we will explore what clean code is, why it's important, and provide you with a set of best practices and principles to help you write clean and maintainable code.
+
+
+  
+  
+  What is Clean Code?
+
+
+Clean code is code that is easy to read, easy to understand, and easy to modify. It is code that is devoid of unnecessary complexity, redundancy, and confusion. Clean code follows a set of conventions and best practices that make it more consistent, making it easier for multiple developers to work on the same project seamlessly.
+
+
+  
+  
+  Why is Clean Code Important?
+
+
+
+Readability: Clean code is easy to read, which means that anyone - including your future self - can understand it quickly. This reduces the time required to grasp the code's functionality, leading to faster development and debugging.
+Maintainability: Code is read more often than it is written. When you write clean code, it becomes easier to maintain and extend the application over time. This is crucial in the software development lifecycle, where projects often evolve and grow.
+Collaboration: Clean code encourages collaboration. When your code is clean and well-organized, other team members can work on it effectively. This makes it easier to divide tasks and work on different parts of the codebase simultaneously.
+Bug Reduction: Clean code reduces the likelihood of introducing bugs. Code that is difficult to understand is more prone to errors during modifications or enhancements.
+Efficiency: Clean code is efficient code. It typically runs faster and uses fewer resources because it avoids unnecessary operations and complexity.
+
+
+Now that we understand why clean code is important, let's delve into some best practices and principles to help you write clean code.
+
+
+  
+  
+  Best Practices and Principles for Writing Clean Code
+
+
+1 . Meaningful Variable and Function Names
+
+Use descriptive names for variables, functions, classes, and other identifiers. A well-chosen name can convey the purpose of the entity, making the code more understandable. Avoid single-letter variable names or cryptic abbreviations.
+
+
+
+# Bad variable name
+x = 5
+
+# Good variable name
+total_score = 5
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+2 . Keep Functions and Methods Short
+
+Functions and methods should be concise and focused on a single task. The Single Responsibility Principle (SRP) states that a function should do one thing and do it well. Shorter functions are easier to understand, test, and maintain. If a function becomes too long or complex, consider breaking it down into smaller, more manageable functions.
+
+
+
+// Long and complex function
+function processUserData(user) {
+    // Many lines of code...
+}
+
+// Refactored into smaller functions
+function validateUserInput(userInput) {
+    // Validation logic...
+}
+
+function saveUserToDatabase(user) {
+    // Database operation...
+}
+
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+3 . Comments and Documentation
+
+Use comments sparingly, and when you do, make them meaningful. Code should be self-explanatory whenever possible. Documentation, such as inline comments and README files, helps other developers understand your code's purpose and usage. Document complex algorithms, non-trivial decisions, and public APIs.
+
+
+
+# Bad comment
+x = x + 1  # Increment x
+
+# Good comment
+# Calculate the total score by incrementing x
+total_score = x + 1
+
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+4 . Consistent Formatting and Indentation
+
+Adhere to a consistent coding style and indentation. This makes the codebase look clean and organized. Most programming languages have community-accepted coding standards (e.g., PEP 8 for Python, eslint for JavaScript) that you should follow. Consistency also applies to naming conventions, spacing, and code structure.
+
+
+
+// Inconsistent formatting
+if(condition){
+    doSomething();
+  } else {
+      doSomethingElse();
+}
+
+// Consistent formatting
+if (condition) {
+    doSomething();
+} else {
+    doSomethingElse();
+}
+
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+5 . DRY (Don't Repeat Yourself) Principle
+
+Avoid duplicating code. Repeated code is harder to maintain and increases the risk of inconsistencies. Extract common functionality into functions, methods, or classes to promote code reusability. When you need to make a change, you'll only need to do it in one place.
+
+Suppose you're working on a JavaScript application that calculates the total price of items in a shopping cart. Initially, you have two separate functions for calculating the price of each item type: one for calculating the price of a book and another for calculating the price of a laptop. Here's the initial code:
+
+
+
+function calculateBookPrice(quantity, price) {
+    return quantity * price;
+}
+
+function calculateLaptopPrice(quantity, price) {
+    return quantity * price;
+}
+
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+While these functions work, they violate the DRY principle because the logic for calculating the total price is repeated for different item types. If you have more item types to calculate, you'll end up duplicating this logic. To follow the DRY principle and improve code maintainability, you can refactor the code as follows:
+
+
+
+function calculateItemPrice(quantity, price) {
+    return quantity * price;
+}
+
+const bookQuantity = 3;
+const bookPrice = 25;
+
+const laptopQuantity = 2;
+const laptopPrice = 800;
+
+const bookTotalPrice = calculateItemPrice(bookQuantity, bookPrice);
+const laptopTotalPrice = calculateItemPrice(laptopQuantity, laptopPrice);
+
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+In this refactored code, we have a single calculateItemPrice function that calculates the total price for any item type based on the quantity and price provided as arguments. This adheres to the DRY principle because the calculation logic is no longer duplicated.
+
+Now, you can easily calculate the total price for books, laptops, or any other item type by calling calculateItemPrice with the appropriate quantity and price values. This approach promotes code reusability, readability, and maintainability while reducing the risk of errors caused by duplicated code.
+
+6 . Use Meaningful Whitespace
+
+Properly format your code with spaces and line breaks. This enhances readability. Use whitespace to separate logical sections of your code. Well-formatted code is easier to scan, reducing the cognitive load on readers.
+
+
+
+// Poor use of whitespace
+const sum=function(a,b){return a+b;}
+
+// Improved use of whitespace
+const sum = function (a, b) {
+    return a + b;
+}
+
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+7 . Error Handling
+
+Handle errors gracefully. Use appropriate try-catch blocks or error-handling mechanisms in your code. This prevents unexpected crashes and provides valuable information for debugging. Don't suppress errors or simply log them without a proper response.
+
+
+
+// Inadequate error handling
+try {
+    result = divide(x, y);
+} catch (error) {
+    console.error("An error occurred");
+}
+
+// Proper error handling
+try {
+    result = divide(x, y);
+} catch (error) {
+    if (error instanceof ZeroDivisionError) {
+        console.error("Division by zero error:", error.message);
+    } else if (error instanceof ValueError) {
+        console.error("Invalid input:", error.message);
+    } else {
+        console.error("An unexpected error occurred:", error.message);
+    }
+}
+
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+8 . Testing
+
+Write unit tests to verify your code's correctness. Test-driven development (TDD) can help you write cleaner code by forcing you to consider edge cases and expected behavior upfront. Well-tested code is more reliable and easier to refactor.
+
+
+
+// Example using JavaScript and the Jest testing framework
+test('addition works correctly', () => {
+    expect(add(2, 3)).toBe(5);
+    expect(add(-1, 1)).toBe(0);
+    expect(add(0, 0)).toBe(0);
+});
+
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+9 . Refactoring
+
+Refactor your code regularly. As requirements change and your understanding of the problem domain deepens, adjust your code accordingly. Refactoring helps maintain clean code as the project evolves. Don't be afraid to revisit and improve existing code when necessary.
+
+Suppose you have a function that calculates the total price of items in a shopping cart with a fixed discount percentage:
+
+
+
+function calculateTotalPrice(cartItems) {
+    let totalPrice = 0;
+    for (const item of cartItems) {
+        totalPrice += item.price;
+    }
+    return totalPrice - (totalPrice * 0.1); // Apply a 10% discount
+}
+
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+Initially, this function calculates the total price and applies a fixed discount of 10%. However, as the project evolves, you realize that you need to support variable discounts. To refactor the code to make it more flexible, you can introduce a discount parameter:
+
+
+
+function calculateTotalPrice(cartItems, discountPercentage) {
+    if (discountPercentage < 0 || discountPercentage > 100) {
+        throw new Error("Discount percentage must be between 0 and 100.");
+    }
+
+    let totalPrice = 0;
+    for (const item of cartItems) {
+        totalPrice += item.price;
+    }
+
+    const discountAmount = (totalPrice * discountPercentage) / 100;
+    return totalPrice - discountAmount;
+}
+
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+In this refactored code:
+
+
+We have added a discountPercentage parameter to the calculateTotalPrice function, allowing you to specify the discount percentage when calling the function.
+We perform validation on the discountPercentage parameter to ensure it falls within a valid range (0 to 100%). If it's not within the range, we throw an error.
+The discount calculation is now based on the provided discountPercentage, making the function more flexible and adaptable to changing requirements.
+
+
+By refactoring the code in this way, you have improved its flexibility and maintainability. You can easily adapt the function to handle different discount scenarios without having to rewrite the entire logic. This demonstrates the importance of regular code refactoring as your project evolves and requirements change.
+
+10 . Version Control
+
+Use version control systems like Git to track changes to your code. This allows you to collaborate effectively with team members, revert to previous versions if necessary, and maintain a clean history of your project's development. Git provides tools for code review, branching, and merging, facilitating collaboration and code cleanliness.
+
+
+  
+  
+  Conclusion
+
+
+Writing clean code is not just a set of rules but a mindset and a discipline. It's about creating software that is easy to read, maintain, and extend. By following these best practices and principles, you can become a more proficient developer who produces high-quality code.Investing time in meticulously examining fellow engineers' codebases, particularly in open-source projects, can be an enlightening experience. Through this exploration, you gain invaluable insights into diverse coding styles and strategies. This exposure enables you to distill the essence of writing pristine, sustainable codebases.. Remember that clean code is a continuous journey, and with practice, it becomes second nature, leading to more efficient and enjoyable software development.
+
+
+          
+
+        
+          
+      
+        
+          
+            Top comments (39)
+          
+          
+            Crown
+    
+
+
+          
+        
+
+        
+            Sort discussion: 
+            
+              
+  
+    
+      Selected Sort Option
+    
+
+
+       Top
+    
+     
+      Most upvoted and relevant comments will be first
+    
+  
+
+
+              
+  
+    
+      
+       Latest
+    
+     
+      Most recent comments will be first
+    
+  
+
+
+              
+  
+    
+      
+       Oldest
+    
+     
+      The oldest comments will be first
+    
+  
+
+
+            
+        
+
+        
+          
+            Subscribe
+          
+        
+      
+
+      
+
+          
+
+
+
+
+
+
+
+
+  
+
+    
+    
+    
+
+  
+    
+  
+  
+    
+      
+
+    
+
+    
+      
+        Personal
+        Trusted User
+      
+
+      
+      
+      
+      
+
+      
+        Create template
+      
+      Templates let you quickly answer FAQs or store snippets for re-use.
+    
+
+    
+
+    
+      Submit
+      Preview
+      Dismiss
+    
+  
+
+  
+
+
+
+        
+                
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Cezary Tomczyk
+  
+  
+    
+      Cezary Tomczyk
+    
+    
+    
+        
+  
+    
+      
+    
+    Cezary Tomczyk
+  
+
+
+
+  Follow
+
+
+  
+    
+      
+        
+          Joined
+        
+        
+          Feb 23, 2023
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          
+# Good comment
+# Calculate the total score by incrementing x
+total_score = x + 1
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+I am not sure what's good in that example, as the code is self-explanatory. :-)
+
+I could see a good example like that:
+
+
+
+# Good comment
+# Converting a string to a number because the API returns the incorrect data type of a string when a number type is expected
+totalUsers = Number(users);
+
+
+
+    Enter fullscreen mode
+    
+
+
+    Exit fullscreen mode
+    
+
+
+
+
+
+
+
+
+The comment explains why value needs to be converted and prevents questions like "We don't need to convert value to number here".
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    22 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Ben Sinclair
+  
+  
+    
+      Ben Sinclair
+    
+    
+    
+        
+  
+    
+      
+    
+    Ben Sinclair
+  
+
+
+
+  Follow
+
+  
+    I've been a professional C, Perl, PHP and Python developer.
+
+I'm an ex-sysadmin.
+
+Back in the day, I had a geekcode which I'm not going to share with you.
+
+418 I'm a teapot.
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Scotland
+          
+        
+          
+            
+              Education
+            
+            
+              Something something cybernetics
+            
+          
+          
+            
+              Work
+            
+            
+              Full-stack agency person
+            
+          
+      
+        
+          Joined
+        
+        
+          Aug 29, 2017
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Even then I'd refactor it into its own function and call it something like fixBrokenApiReturnType.
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    2 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Cezary Tomczyk
+  
+  
+    
+      Cezary Tomczyk
+    
+    
+    
+        
+  
+    
+      
+    
+    Cezary Tomczyk
+  
+
+
+
+  Follow
+
+
+  
+    
+      
+        
+          Joined
+        
+        
+          Feb 23, 2023
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          The function name fixBrokenApiReturnType does not explain why it needs to be fixed. I'd eventually add a comment with the JIRA (or the like) ticket ID.
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    6 likes
+    
+      Like
+    
+  
+
+      
+        Thread
+    
+
+
+        Thread
+      
+
+
+
+  
+
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Barry Michael Doyle
+  
+  
+    
+      Barry Michael Doyle
+    
+    
+    
+        
+  
+    
+      
+    
+    Barry Michael Doyle
+  
+
+
+
+  Follow
+
+  
+    👨‍💻 Senior Frontend Engineer @ SecuritEase 💻 Boosting Tech Careers 🚀 Sharing Developer Insights 🛤️ Explore ⚛️ ReactJS, 📱 React Native, 🌐 NextJS & 🔷 TypeScript with me. Let's grow! 🌱
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Cape Town, South Africa
+          
+        
+          
+            
+              Education
+            
+            
+              Bachelor of Science in Computing
+            
+          
+          
+            
+              Pronouns
+            
+            
+              He/Him
+            
+          
+          
+            
+              Work
+            
+            
+              Senior Frontend Engineer at SecuritEase
+            
+          
+      
+        
+          Joined
+        
+        
+          Nov 13, 2017
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 22
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Don't forget to JSDoc the living **** out that function as well xD
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    1 like
+    
+      Like
+    
+  
+
+      
+        Thread
+    
+
+
+        Thread
+      
+
+
+
+  
+
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Cezary Tomczyk
+  
+  
+    
+      Cezary Tomczyk
+    
+    
+    
+        
+  
+    
+      
+    
+    Cezary Tomczyk
+  
+
+
+
+  Follow
+
+
+  
+    
+      
+        
+          Joined
+        
+        
+          Feb 23, 2023
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 22
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          @barrymichaeldoyle Roger that xD
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    2 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+    
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    lionel-rowe
+  
+  
+    
+      lionel-rowe
+    
+    
+    
+        
+  
+    
+      
+    
+    lionel-rowe
+  
+
+
+
+  Follow
+
+
+  
+    
+      
+        
+          Joined
+        
+        
+          May 19, 2019
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Passive-aggressive function names, love it 😆 (I'm not being sarcastic, seeing people's exasperation come through in their comments/naming always gives me a good chuckle, and I've been known to do the same myself on occasion)
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    3 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+
+  
+    
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Ronald Roe
+  
+  
+    
+      Ronald Roe
+    
+    
+    
+        
+  
+    
+      
+    
+    Ronald Roe
+  
+
+
+
+  Follow
+
+
+  
+    
+      
+        
+          Joined
+        
+        
+          Oct 15, 2018
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 27
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Even in your example, the comment isn't totally necessary. If that's JavaScript, it's clear what's happening. If it's another language, we could just cast to string, and that would be clear from the code. For instance:
+
+int totalUsers = (int) users;
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Cezary Tomczyk
+  
+  
+    
+      Cezary Tomczyk
+    
+    
+    
+        
+  
+    
+      
+    
+    Cezary Tomczyk
+  
+
+
+
+  Follow
+
+
+  
+    
+      
+        
+          Joined
+        
+        
+          Feb 23, 2023
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 27
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          
+Even in your example, the comment isn't totally necessary. If that's JavaScript, it's clear what's happening.
+
+
+My example code is clear, but only from the code perspective. The question is, why would you convert an incoming value to a number here? And to clarify, an additional comment would help here.
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    1 like
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+
+  
+    
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Camco
+  
+  
+    
+      Camco
+    
+    
+    
+        
+  
+    
+      
+    
+    Camco
+  
+
+
+
+  Follow
+
+
+  
+    
+      
+        
+          Joined
+        
+        
+          Jul 20, 2018
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Please give the credit to the author of this content...
+
+As I was reading this, I knew it was directly from Clean Code: A Handbook of Agile Software Craftsmanship... So I pulled the book from my desk and confirmed it
+
+en.m.wikipedia.org/wiki/Robert_C._...
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    14 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    MFONIDO MARK
+      
+        
+    
+
+
+      
+  
+  
+    
+      MFONIDO MARK
+    
+    
+    
+        
+  
+    
+      
+    
+    MFONIDO MARK
+  
+
+
+
+  Follow
+
+  
+    Software Developer  || Developer Advocate 🥑  || Open Source Advocate || Community Manager
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Earth
+          
+        
+          
+            
+              Education
+            
+            
+              Bsc. Computer Science
+            
+          
+          
+            
+              Work
+            
+            
+              Software Developer
+            
+          
+      
+        
+          Joined
+        
+        
+          May 22, 2020
+        
+      
+    
+  
+
+    
+
+
+      
+        
+    
+
+
+      
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+    • Edited on Sep 20
+    • Edited
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Hi @camco 
+I appreciate your comment. However, I would like to clarify that the content I provided is a reflection of general knowledge and widely accepted industry practices. It has not been directly copied from any specific source, including 'Clean Code: A Handbook of Agile Software Craftsmanship.'
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    2 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Ivan Savu
+  
+  
+    
+      Ivan Savu
+    
+    
+    
+        
+  
+    
+      
+    
+    Ivan Savu
+  
+
+
+
+  Follow
+
+  
+    Software Engineer with background in Games, UI, Industrial software and Databases.
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Novi Sad, Serbia
+          
+        
+          
+            
+              Education
+            
+            
+              Faculty of Technical Sciences, Novi Sad University
+            
+          
+          
+            
+              Work
+            
+            
+              Co-founder and programmer @VeloxDB
+            
+          
+      
+        
+          Joined
+        
+        
+          Jan 5, 2023
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 18
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Now this is a ChatGPT written comment if I ever seen one...
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    13 likes
+    
+      Like
+    
+  
+
+      
+        Thread
+    
+
+
+        Thread
+      
+
+
+
+  
+
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    wakywayne
+  
+  
+    
+      wakywayne
+    
+    
+    
+        
+  
+    
+      
+    
+    wakywayne
+  
+
+
+
+  Follow
+
+
+  
+    
+        
+          
+            Location
+          
+          
+            New York
+          
+        
+          
+            
+              Work
+            
+            
+              Managing Director of WAR Zone
+            
+          
+      
+        
+          Joined
+        
+        
+          Jun 30, 2022
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 20
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          So true 🤣
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    3 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+
+
+  
+    
+
+
+  
+    
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Red Ochsenbein (he/him)
+  
+  
+    
+      Red Ochsenbein (he/him)
+    
+    
+    
+        
+  
+    
+      
+    
+    Red Ochsenbein (he/him)
+  
+
+
+
+  Follow
+
+  
+    A senior at work, a beginner at heart.
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Burgdorf, Switzerland
+          
+        
+          
+            
+              Pronouns
+            
+            
+              he/him
+            
+          
+      
+        
+          Joined
+        
+        
+          Oct 5, 2021
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+    • Edited on Sep 17
+    • Edited
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          
+Shorter functions are easier to understand, test, and maintain.
+
+
+I'd say this is not always true. Just spitting everything into smaller functions can lead to way too much fragmentation and it requires you to jump across several functions and files to grasp the full picture. The same can happen because of the DRY principle.
+
+Sometimes it makes sense to duplicate the same code for a) readability reasons and/or b) because it serves a different purpose and just happen to look the same.
+
+In short: those things lead to premature abstraction (YAGNI is often the better approach)
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    7 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    crisz
+  
+  
+    
+      crisz
+    
+    
+    
+        
+  
+    
+      
+    
+    crisz
+  
+
+
+
+  Follow
+
+
+  
+    
+        
+          
+            Location
+          
+          
+            Palermo, Italy
+          
+        
+          
+            
+              Education
+            
+            
+              Computer engineering - University Of Palermo
+            
+          
+      
+        
+          Joined
+        
+        
+          Aug 2, 2017
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 18
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          I conceptually divide the classes into two categories: master and utility.
+The master code looks like this:
+
+
+master:
+
+
+utility.step1();
+utility.step2();
+if (condition) utility.step3();
+utility.step4();
+
+
+
+
+
+
+In this way, just reading the master code you can have a full picture of the flow and what it does.
+
+On the other hand, often I see code like this:
+
+
+foo:
+
+
+bar:
+
+
+fn1()
+fn2:
+fn3()
+fn4()
+fn5()
+
+
+
+
+fn 6()
+
+
+
+
+This is a code impossible to read and to maintain
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    4 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    MFONIDO MARK
+      
+        
+    
+
+
+      
+  
+  
+    
+      MFONIDO MARK
+    
+    
+    
+        
+  
+    
+      
+    
+    MFONIDO MARK
+  
+
+
+
+  Follow
+
+  
+    Software Developer  || Developer Advocate 🥑  || Open Source Advocate || Community Manager
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Earth
+          
+        
+          
+            
+              Education
+            
+            
+              Bsc. Computer Science
+            
+          
+          
+            
+              Work
+            
+            
+              Software Developer
+            
+          
+      
+        
+          Joined
+        
+        
+          May 22, 2020
+        
+      
+    
+  
+
+    
+
+
+      
+        
+    
+
+
+      
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Thank you for your input. You've highlighted a valid point about the potential drawbacks of excessive code fragmentation and strict adherence to DRY. Balancing clean code with readability and avoiding premature abstraction is indeed a nuanced challenge. Context and project requirements often dictate the best approach. Your insights contribute to a valuable discussion on software development principles
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    1 like
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Nigel Thorne
+  
+  
+    
+      Nigel Thorne
+    
+    
+    
+        
+  
+    
+      
+    
+    Nigel Thorne
+  
+
+
+
+  Follow
+
+
+  
+    
+      
+        
+          Joined
+        
+        
+          Apr 26, 2020
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+    • Edited on Sep 17
+    • Edited
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Good artical, but your examples are off. 
+
+Good comments explain "why" not how or what. Method names explain what. Method bodies explain how. It's often not taught like this as introductory programming books often use comments to explain what some piece of code is doing. Once you can read code you should not need that help.
+
+Changing a method to have a discount argument is not an example of refactoring as it changes behaviour. In TDD, the red, green, refactor cycle, relies on the tests written in red, that you made pass in green. If you add behaviour in refactoring, you won't have a test for it. Refactoring is defined as changing the design or structure without changing the behaviour.
+
+Keep up the work.
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    6 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    MFONIDO MARK
+      
+        
+    
+
+
+      
+  
+  
+    
+      MFONIDO MARK
+    
+    
+    
+        
+  
+    
+      
+    
+    MFONIDO MARK
+  
+
+
+
+  Follow
+
+  
+    Software Developer  || Developer Advocate 🥑  || Open Source Advocate || Community Manager
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Earth
+          
+        
+          
+            
+              Education
+            
+            
+              Bsc. Computer Science
+            
+          
+          
+            
+              Work
+            
+            
+              Software Developer
+            
+          
+      
+        
+          Joined
+        
+        
+          May 22, 2020
+        
+      
+    
+  
+
+    
+
+
+      
+        
+    
+
+
+      
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Thanks for the feedback, Your insights are valuable.
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    2 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Stephen James
+  
+  
+    
+      Stephen James
+    
+    
+    
+        
+  
+    
+      
+    
+    Stephen James
+  
+
+
+
+  Follow
+
+  
+    Software developer, developing in c++, javascript, nodejs, electron, objective C, c#, react, angular, etc.
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Texas
+          
+        
+          
+            
+              Work
+            
+            
+              Senior Software Engineer at ExamSoft
+            
+          
+      
+        
+          Joined
+        
+        
+          Dec 22, 2019
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 20
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          I have been doing this for 47 years, and clean code has seldom been a fundamental skill. 
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    4 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Marco Brandizi
+  
+  
+    
+      Marco Brandizi
+    
+    
+    
+        
+  
+    
+      
+    
+    Marco Brandizi
+  
+
+
+
+  Follow
+
+  
+    See marcobrandizi.info
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Cambridge, UK
+          
+        
+          
+            
+              Work
+            
+            
+              Bioinformatics Specialist at Rothamsted Research
+            
+          
+      
+        
+          Joined
+        
+        
+          Feb 11, 2021
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 20
+  
+
+    • Edited on Sep 21
+    • Edited
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          catch ( ex ) {
+  console.error(...)
+}
+
+This should only be done at the top level of your application, and in most cases it is already being done, eg, by your web container or CLI framework.
+
+If the only thing you can do with an exception is reporting it, then IGNORE it and let the top level deal with reporting. This will do it in the way that was configured for the entire application (eg, it sends it to the app logger).
+
+If you can detect a more specific anomaly, eg, your case where you have something like "Invalid input %s for ", then RETHROW ANOTHER exception, ATTACHING the original one (the stacktrace is very valuable for debugging).
+
+If you can recover from an exception, then do it in the catch and log the workaround as a warning (eg, "Config file not found, using default config"). If you need to interrupt the normal flow, then catch and rethrow or return, DO NOT catch and let your regular code to continue (with bad data, inconsistent/insecure state, etc). 
+
+I see wrong ways of dealing with exceptions (empty catch, console.error(), out.println () ) all the time and it's so time-wasting and frustrating.
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    4 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Ronald Roe
+  
+  
+    
+      Ronald Roe
+    
+    
+    
+        
+  
+    
+      
+    
+    Ronald Roe
+  
+
+
+
+  Follow
+
+
+  
+    
+      
+        
+          Joined
+        
+        
+          Oct 15, 2018
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 27
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          I submit that if you're properly naming your variables and other structures, that constitutes good commenting. Comments should be rare, because your code should be so readable, you don't need them.
+
+I know you aren't invoking Uncle Bob, here, but I'm going to. He covers that concept right in preface of the book, before he ever digs into the subject.
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    2 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Daniel Mabadeje
+  
+  
+    
+      Daniel Mabadeje
+    
+    
+    
+        
+  
+    
+      
+    
+    Daniel Mabadeje
+  
+
+
+
+  Follow
+
+  
+    Software developer passionate about learning and solving problems
+  
+
+  
+    
+        
+          
+            Email
+          
+          
+            mabadejedaniel1@gmail.com
+          
+        
+        
+          
+            Location
+          
+          
+            Nigeria
+          
+        
+      
+        
+          Joined
+        
+        
+          Nov 3, 2020
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 16
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Thank you Mark,
+
+Very Insightful 🔥👏👏
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    3 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    MFONIDO MARK
+      
+        
+    
+
+
+      
+  
+  
+    
+      MFONIDO MARK
+    
+    
+    
+        
+  
+    
+      
+    
+    MFONIDO MARK
+  
+
+
+
+  Follow
+
+  
+    Software Developer  || Developer Advocate 🥑  || Open Source Advocate || Community Manager
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Earth
+          
+        
+          
+            
+              Education
+            
+            
+              Bsc. Computer Science
+            
+          
+          
+            
+              Work
+            
+            
+              Software Developer
+            
+          
+      
+        
+          Joined
+        
+        
+          May 22, 2020
+        
+      
+    
+  
+
+    
+
+
+      
+        
+    
+
+
+      
+  
+
+  •
+
+
+  
+    Sep 16
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Thank you Daniel
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    1 like
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Larry Lo
+  
+  
+    
+      Larry Lo
+    
+    
+    
+        
+  
+    
+      
+    
+    Larry Lo
+  
+
+
+
+  Follow
+
+  
+    Passionate Collaborator | Catalyst | Experienced Mobile App Developer | Fast and Resilience Learner
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Hong Kong
+          
+        
+      
+        
+          Joined
+        
+        
+          May 8, 2022
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Well explained ! 
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    2 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Kennedy Ekanem
+  
+  
+    
+      Kennedy Ekanem
+    
+    
+    
+        
+  
+    
+      
+    
+    Kennedy Ekanem
+  
+
+
+
+  Follow
+
+  
+    Opensource Evangelist
+  
+
+  
+    
+          
+            
+              Work
+            
+            
+              DevOps 
+            
+          
+      
+        
+          Joined
+        
+        
+          Sep 16, 2022
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Thank you chief 🔥 
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    2 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Chirag Aggarwal
+  
+  
+    
+      Chirag Aggarwal
+    
+    
+    
+        
+  
+    
+      
+    
+    Chirag Aggarwal
+  
+
+
+
+  Follow
+
+  
+    I am a Computer Science Student at Bennett University.
+  
+
+  
+    
+        
+          
+            Email
+          
+          
+            chiragaggarwal5k@gmail.com
+          
+        
+        
+          
+            Location
+          
+          
+            Noida, Uttar Pradesh, India
+          
+        
+          
+            
+              Education
+            
+            
+              Bennett Univerisity
+            
+          
+          
+            
+              Pronouns
+            
+            
+              He/Him
+            
+          
+          
+            
+              Work
+            
+            
+              Student
+            
+          
+      
+        
+          Joined
+        
+        
+          Nov 2, 2022
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Maturity is when you start writing clean code. I am immature 😅
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    2 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Red Ochsenbein (he/him)
+  
+  
+    
+      Red Ochsenbein (he/him)
+    
+    
+    
+        
+  
+    
+      
+    
+    Red Ochsenbein (he/him)
+  
+
+
+
+  Follow
+
+  
+    A senior at work, a beginner at heart.
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Burgdorf, Switzerland
+          
+        
+          
+            
+              Pronouns
+            
+            
+              he/him
+            
+          
+      
+        
+          Joined
+        
+        
+          Oct 5, 2021
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+    • Edited on Sep 17
+    • Edited
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          I'd say maturity is when you realize some clean code principles are not always rights
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    5 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Narendra gorantla
+  
+  
+    
+      Narendra gorantla
+    
+    
+    
+        
+  
+    
+      
+    
+    Narendra gorantla
+  
+
+
+
+  Follow
+
+
+  
+    
+        
+          
+            Email
+          
+          
+            narendragorantla@yahoo.com
+          
+        
+      
+        
+          Joined
+        
+        
+          Oct 8, 2020
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 18
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Good 
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    2 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Hasan Elsherbiny
+  
+  
+    
+      Hasan Elsherbiny
+    
+    
+    
+        
+  
+    
+      
+    
+    Hasan Elsherbiny
+  
+
+
+
+  Follow
+
+  
+    Senior Full-stack .Net Developer who has Created and optimized scalable web applications for over 8 years ,leveraged troubleshooting and
+debugging expertise to contribute to the successful development
+  
+
+  
+    
+          
+            
+              Education
+            
+            
+              Bachelor of Physics and Computer Science
+            
+          
+          
+            
+              Work
+            
+            
+              Senior Software Engineer
+            
+          
+      
+        
+          Joined
+        
+        
+          Jun 18, 2021
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          well explained article 👍
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    2 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    Orim Dominic Adah
+  
+  
+    
+      Orim Dominic Adah
+    
+    
+    
+        
+  
+    
+      
+    
+    Orim Dominic Adah
+  
+
+
+
+  Follow
+
+  
+    Software Engineer
+  
+
+  
+    
+      
+        
+          Joined
+        
+        
+          Mar 11, 2019
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 16
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Well explained! 
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    2 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+    
+      
+        
+          Collapse
+    
+
+
+          Expand
+    
+
+
+        
+        
+      
+  
+     
+    
+
+    
+    
+  
+
+
+  
+    
+        
+
+
+        
+  
+    BinaryBitBytes
+  
+  
+    
+      BinaryBitBytes
+    
+    
+    
+        
+  
+    
+      
+    
+    BinaryBitBytes
+  
+
+
+
+  Follow
+
+  
+    I am a entry level developer and tech professional that strives to improve my skills every day. I want to achieve the skillsets of a senior software developer by 2024.
+  
+
+  
+    
+          
+            
+              Education
+            
+            
+              Georgia Institute of Technology 
+            
+          
+          
+            
+              Work
+            
+            
+              CTO
+            
+          
+      
+        
+          Joined
+        
+        
+          Dec 16, 2022
+        
+      
+    
+  
+
+    
+
+
+  
+
+  •
+
+
+  
+    Sep 17
+  
+
+
+
+
+  
+    
+      Dropdown menu
+    
+
+
+    
+    
+      
+        Copy link
+        
+          
+              
+                Hide
+              
+          
+        
+        
+        
+      
+    
+  
+
+
+
+        
+          Very informative,  thank you
+
+
+        
+
+    
+
+    
+  
+    Like comment: 
+
+    Like comment: 
+    
+
+
+    2 likes
+    
+      Like
+    
+  
+
+      
+        Comment button
+
+        Reply
+      
+
+
+
+  
+
+
+
+  
+    
+
+
+        
+      
+
+      
+    
+      
+        View full discussion (39 comments)
+      
+    
+
+
+  
+  Code of Conduct
+  •
+  Report abuse
+
+
+
+
+  
+  
+  
+    
+      
+        Are you sure you want to hide this comment? It will become hidden in your post, but will still be visible via the comment's permalink.
+      
+      
+        
+        Hide child comments as well
+      
+      
+        
+          Confirm
+        
+      
+    
+  For further actions, you may consider blocking this person and/or reporting abuse
+
+
+
+
+      
+
+      
+        
+      
+
+          
+    Read next
+      
+        
+          
+              
+          
+          
+            🧠 Are all the good SaaS ideas already taken?
+            
+              Charlie from IdeaHub - Sep 8
+            
+          
+        
+      
+      
+        
+          
+              
+          
+          
+            Next.js 13.5 have 22% faster local server startup
+            
+              Kumar Kalyan  - Sep 21
+            
+          
+        
+      
+      
+        
+          
+              
+          
+          
+            Force Enable Copy and Paste on Websites! JavaScript Bookmarklet
+            
+              Genji - Sep 22
+            
+          
+        
+      
+      
+        
+          
+              
+          
+          
+            Solving "Climbing Stairs" Leet code Problem
+            
+              Leetcode - Sep 10
+            
+          
+        
+      
+  
+
+    
+  
+
+  
+    
+  
+    
+  
+    
+      
+    
+    MFONIDO MARK
+  
+
+
+
+  Follow
+
+  
+    Software Developer  || Developer Advocate 🥑  || Open Source Advocate || Community Manager
+  
+
+  
+    
+        
+          
+            Location
+          
+          
+            Earth
+          
+        
+          
+            
+              Education
+            
+            
+              Bsc. Computer Science
+            
+          
+          
+            
+              Work
+            
+            
+              Software Developer
+            
+          
+      
+        
+          Joined
+        
+        
+          May 22, 2020
+        
+      
+    
+  
+
+  
+
+      
+        
+          
+            More from MFONIDO MARK
+          
+        
+        
+            
+              Debouncing in JavaScript
+              
+                  #javascript
+                  #webdev
+                  #programming
+                  #productivity
+              
+            
+            
+              Community!,The What? The Why? And The When?
+              
+                  #community
+                  #devrel
+                  #developers
+                  #productivity
+              
+            
+            
+              GETTING STARTED WITH WEB DEVELOPMENT
+              
+                  #webdev
+                  #beginners
+                  #programming
+                  #productivity
+              
+            
+        
+      
+
+
+
+
+  
+
+
+
+
+
+
+  
+    Once suspended, favourmark05 will not be able to comment or publish posts until their suspension is removed.
+  
+
+  
+    
+      Note:
+    
+    
+    
+    
+  
+  
+    
+      Submit & Suspend
+    
+  
+
+
+
+  
+    Once unsuspended, favourmark05 will be able to comment and publish posts again.
+  
+
+  
+    
+      Note:
+    
+    
+    
+    
+  
+  
+    
+      Submit & Unsuspend
+    
+  
+
+
+
+  
+    Once unpublished, all posts by favourmark05 will become hidden and only accessible to themselves.
+  
+  
+    If favourmark05 is not suspended, they can still re-publish their posts from their dashboard.
+  
+  Note:
+  
+    
+      Unpublish all posts
+    
+  
+
+
+
+  
+    Once unpublished, this post will become invisible to the public and only accessible to MFONIDO MARK.
+  
+  They can still re-publish the post if they are not suspended.
+  
+    
+      Unpublish Post
+    
+  
+
+
+
+  
+    Thanks for keeping DEV Community safe. Here is what you can do to flag favourmark05:
+  
+
+  
+    
+    
+      Make all posts by favourmark05 less visible
+      
+        favourmark05 consistently posts content that violates DEV Community's
+        code of conduct because it is harassing, offensive or spammy.
+      
+    
+  
+
+  
+    
+      Report other inappropriate conduct
+    
+  
+
+  
+    
+    
+    
+      Confirm Flag
+    
+  
+
+
+
+  
+    Unflagging favourmark05 will restore default visibility to their posts.
+  
+
+  
+    
+      Confirm Unflag
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  var waitingOnPodcast = setInterval(function() {
+  if (typeof initializePodcastPlayback !== 'undefined') {
+    initializePodcastPlayback();
+    clearInterval(waitingOnPodcast);
+  }
+}, 1);
+
+  if (document.head.querySelector('meta[name="user-signed-in"][content="true"]')) {
+  function displayPollResults(json) {
+    var totalVotes = json.voting_data.votes_count;
+    json.voting_data.votes_distribution.forEach(function(point) {
+      var pollOptionItem = document.getElementById('poll_option_list_item_'+point[0]);
+      var optionText = document.getElementById('poll_option_label_'+point[0]).textContent;
+      if (json.user_vote_poll_option_id === point[0]) {
+        var votedClass = 'optionvotedfor'
+      } else {
+        var votedClass = 'optionnotvotedfor'
+      }
+      if (totalVotes === 0) {
+        var percent = 0;
+      } else {
+        var percent = (point[1]/totalVotes)*100;
+      }
+      var roundedPercent = Math.round( percent * 10 ) / 10
+      var percentFromRight = (100-roundedPercent)
+      var html = '<span><span class="ltag-votepercent ltag-'+votedClass+'" style="right:'+percentFromRight+'%"></span>        <span class="ltag-votepercenttext">'+optionText+' — '+roundedPercent+'%</span></span>';
+      pollOptionItem.innerHTML = html;
+      pollOptionItem.classList.add('already-voted')
+      document.getElementById('showmethemoney-'+json.poll_id).innerHTML = '<span class="ltag-voting-results-count">'+totalVotes+' total votes</span>';
+    })
+  }
+
+  var polls = document.getElementsByClassName('ltag-poll');
+  for (var i = 0; i < polls.length; i += 1) {
+    var poll = polls[i]
+    var pollId = poll.dataset.pollId
+    window.fetch('/poll_votes/'+pollId)
+    .then(function(response){
+      response.json().then(
+        function(json) {
+          if (json.voted) {
+            displayPollResults(json)
+          } else {
+            var els = document.getElementById('poll_'+json.poll_id).getElementsByClassName('ltag-polloption');
+
+            for (i = 0; i < els.length; i += 1) {
+              els[i].addEventListener('click', function(e) {
+                var tokenMeta = document.querySelector("meta[name='csrf-token']")
+                if (!tokenMeta) {
+                  alert('Whoops. There was an error. Your vote was not counted. Try refreshing the page.')
+                  return
+                }
+                var csrfToken = tokenMeta.getAttribute('content')
+                var optionId = e.target.dataset.optionId
+                window.fetch('/poll_votes', {
+                  method: 'POST',
+                  headers: {
+                    'X-CSRF-Token': csrfToken,
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({poll_vote: { poll_option_id: optionId } }),
+                  credentials: 'same-origin',
+                }).then(function(response){
+                  response.json().then(function(j){displayPollResults(j)})
+                })
+              });
+            }
+
+            document.getElementById('showmethemoney-'+json.poll_id).addEventListener('click', function() {
+              pollId = this.dataset.pollId
+              window.fetch('/poll_skips', {
+                method: 'POST',
+                headers: {
+                  'X-CSRF-Token': csrfToken,
+                  'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({poll_skip: {poll_id: pollId }}),
+                credentials: 'same-origin',
+              }).then(function(response){
+                response.json().then(function(j){displayPollResults(j)})
+              })
+            });
+          }
+        }
+      )
+    })
+  }
+} else {
+    var els = document.getElementsByClassName('ltag-poll')
+    for (i = 0; i < els.length; i += 1) {
+      els[i].onclick = function(e) {
+        if (typeof showLoginModal !== "undefined") {
+          showLoginModal();
+        }
+      }
+    }
+}
+
+  function activateRunkitTags() {
+  if (!areAnyRunkitTagsPresent())
+    return
+
+  var checkRunkit = setInterval(function() {
+    try {
+      dynamicallyLoadRunkitLibrary()
+
+      if (typeof(RunKit) === 'undefined') {
+        return
+      }
+
+      replaceTagContentsWithRunkitWidget()
+      clearInterval(checkRunkit);
+    } catch(e) {
+      console.error(e);
+      clearInterval(checkRunkit);
+    }
+  }, 200);
+}
+
+function isRunkitTagAlreadyActive(runkitTag) {
+  return runkitTag.querySelector("iframe") !== null;
+};
+
+function areAnyRunkitTagsPresent() {
+  var presentRunkitTags = document.getElementsByClassName("runkit-element");
+
+  return presentRunkitTags.length > 0
+}
+
+function replaceTagContentsWithRunkitWidget() {
+  var targets = document.getElementsByClassName("runkit-element");
+  for (var i = 0; i < targets.length; i++) {
+    if (isRunkitTagAlreadyActive(targets[i])) {
+      continue;
+    }
+
+    var wrapperContent = targets[i].textContent;
+    if (/^(<iframe src)/.test(wrapperContent) === false) {
+      if (targets[i].children.length > 0) {
+        var preamble = targets[i].children[0].textContent;
+        var content = targets[i].children[1].textContent;
+        targets[i].innerHTML = "";
+        var notebook = RunKit.createNotebook({
+          element: targets[i],
+          source: content,
+          preamble: preamble
+        });
+      }
+    }
+  }
+};
+
+function dynamicallyLoadRunkitLibrary() {
+  if (typeof(dynamicallyLoadScript) === "undefined")
+    return
+
+  dynamicallyLoadScript("//embed.runkit.com")
+}
+
+activateRunkitTags();
+
+    // Listen for resize events and match them to the iframe
+  window.addEventListener('message', function(event) {
+    if (event.origin.startsWith('https://platform.twitter.com')) {
+        var iframes = document.getElementsByTagName('iframe');
+        for (var i = 0; i < iframes.length; i++) {
+          if (event.source === iframes[i].contentWindow) { // iframes which match the event
+            var iframe = iframes[i];
+            var data = event.data['twttr.embed'];
+            if (data && data['method'] === 'twttr.private.resize' && data['params'] && data['params']['0']) {
+              iframe.style.height = data['params']['0']['height'] + 0.5 + 'px';
+              iframe.style.minHeight = data['params']['0']['height'] + 0.5 + 'px';
+              iframe.style.width = data['params']['0']['width'] + 'px !important';
+            }
+            break;
+          }
+        }
+    }
+}, false);
+
+// Legacy support: We have shifted up how we render tweets, but still need to render
+// the old way for old embed. This could eventually be removed.
+var videoPreviews = document.getElementsByClassName("ltag__twitter-tweet__media__video-wrapper");
+[].forEach.call(videoPreviews, function(el) {
+  el.onclick = function(e) {
+    var divHeight = el.offsetHeight;
+    el.style.maxHeight = divHeight + "px";
+    el.getElementsByClassName("ltag__twitter-tweet__media--video-preview")[0].style.display = "none";
+    el.getElementsByClassName("ltag__twitter-tweet__video")[0].style.display = "block";
+    el.getElementsByTagName("video")[0].play();
+  }
+});
+var tweets = document.getElementsByClassName("ltag__twitter-tweet__main");
+[].forEach.call(tweets, function(tweet){
+  tweet.onclick = function(e) {
+    if (e.target.nodeName == "A" || e.target.parentElement.nodeName == "A") {
+      return;
+    }
+    window.open(tweet.dataset.url,"_blank");
+  }
+});
+
+
+
+    
+  
+
+    
+
+  
+    
+      DEV Community — A constructive and inclusive social network for software developers. With you every step of your journey.
+    
+
+    
+        
+    
+      Home
+    
+    
+  
+  
+    
+      Podcasts
+    
+    
+  
+  
+    
+      Videos
+    
+    
+  
+  
+    
+      Tags
+    
+    
+  
+  
+    
+      FAQ
+    
+    
+  
+  
+    
+      Forem Shop
+    
+    
+  
+  
+    
+      Advertise on DEV
+    
+    
+  
+  
+    
+      About
+    
+    
+  
+  
+    
+      Contact
+    
+    
+  
+  
+    
+      Guides
+    
+    
+  
+  
+    
+      Software comparisons
+    
+    
+  
+
+    
+
+    
+        
+    
+      Code of Conduct
+    
+    
+  
+  
+    
+      Privacy Policy
+    
+    
+  
+  
+    
+      Terms of use
+    
+    
+  
+
+    
+
+    
+      Built on Forem — the open source software that powers DEV and other inclusive communities.
+      Made with love and Ruby on Rails. DEV Community © 2016 - 2023.
+    
+  
+
+
+
+    
+  
+    
+      
+    
+    
+      
+          We're a place where coders share, stay up-to-date and grow their careers.
+      
+    
+    
+      
+        Log in
+      
+      
+        Create account
+      
+    
+  
+
+
+
+
+
+  
+  
+    
+    
+    
+    
+    
+
+
+  
+  

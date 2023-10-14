@@ -314,7 +314,8 @@ end
 defimpl Langchain.ForOpenAIApi, for: Langchain.Message do
   alias Langchain.Message
 
-  def for_api(%Message{role: :assistant, function_name: fun_name} = fun) when is_binary(fun_name) do
+  def for_api(%Message{role: :assistant, function_name: fun_name} = fun)
+      when is_binary(fun_name) do
     %{
       "role" => :assistant,
       "function_call" => %{
